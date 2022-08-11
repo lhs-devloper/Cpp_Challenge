@@ -14,4 +14,4 @@ class Car
         void PowerOn();
         void PowerOff();
         ~Car(); // 소멸자
-}
+};
