@@ -16,6 +16,7 @@ Car::Car(const string& name, int fuel)
     power_ = false;
 }
 
+Car::~Car() {}
 void Car::PowerOn()
 {
     if(power_ == true)

@@ -3,9 +3,9 @@
 
 int main()
 {
-    Car Avante = new Car("Avante");
-    Car Sonata = new Car("Sonata", 60);
-    Car Grandure = new Car("Grandure", 64);
+    Car Avante("Avante");
+    Car Sonata("Sonata", 60);
+    Car Grandure("Grandure", 64);
     
     Avante.PowerOn();
     Sonata.PowerOn();
